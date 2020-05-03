@@ -1,0 +1,58 @@
+body{
+    max-width: 1000px;
+    margin: auto;
+    display: block;
+}
+.container-counts{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.country-name{
+    padding: 16px;
+    background: #e2e8ec;
+    font-size: 20px;
+    font-weight: 800;
+    text-align: center;
+}
+.container-totaL{
+    padding: 10px;
+    text-align: center;
+    background: #aaaaaa;
+}
+.container-recovered{
+    padding: 10px;
+    text-align: center;
+    background: #b7eec8;
+}
+.container-death{
+    padding: 10px;
+    text-align: center;
+    background: #b99181;
+}
+.total-cont{
+    font-size: 24px;
+    font-weight: 800;
+    color: #111111;
+}
+.recovered-cont{
+    font-size: 24px;
+    color: #3e8003;
+    font-weight: 800;
+}
+.death-cont{
+    font-size: 24px;
+    color: #b90a04;
+    font-weight: 800;
+}
+
+.container-active{
+    padding: 10px;
+    text-align: center;
+    background: #eba6ee;
+}
+
+.active-counts {
+    font-size: 24px;
+    color: #b9b00e;
+    text-align: center;
+}
